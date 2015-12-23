@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  OneViewController.h
 //  DragDockItem
 //
 //  Created by zhang minzhang min on 15/12/23.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface OneViewController : UIViewController
 
 @end
-

@@ -2,11 +2,12 @@
 //  AppDelegate.m
 //  DragDockItem
 //
-//  Created by zhang minzhang min on 15/12/23.
+//  Created by zhang minzhang min on 15/12/22.
 //  Copyright © 2015年 zhang min. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "OneViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    OneViewController *one = [[OneViewController alloc]init];
+    
+    
+    [self.window setRootViewController:one];
+    
+    [self.window makeKeyAndVisible];
+    
+    self.window.hidden = NO;
+    
     return YES;
 }
 

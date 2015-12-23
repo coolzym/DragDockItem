@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:DragDockItem.xcodeproj">
+      location = "self:/Users/zhangmin/Public/&#x7ec3;&#x4e60;/ZMDragDockItem/DragDockItem.xcodeproj">
    </FileRef>
 </Workspace>
